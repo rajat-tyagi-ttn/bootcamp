@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Report</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h3>TO THE NEW</h3>
+        </div>
+        <div>
+            <p>Home</p>
+            <p>Quick Help</p>
+        </div>    
+        
+    </header>
+
+    <container>
+        <div class="report">
+            <h3 class="formHeading">Bug Report</h3>
+            <form id="bugform">
+                <p>
+                    <label>Title</label>
+                    <input type="text" name="title">
+                </p>
+                <p>
+                    <label>Description</label>
+                    <textarea name="description"></textarea>
+                </p>
+                <p>
+                    <label>Operating System</label>
+                    <div class="custom-select">
+                        <select>
+                          <option value="0">Windows XP</option>
+                          <option value="1">Windows 7</option>
+                          <option value="2">Windows 10</option>
+                          <option value="3">Linux</option>
+                        </select>
+                      </div>
+                </p>
+                <p>
+                    <label>Product</label>
+                    <div class="custom-select">
+                        <select>
+                          <option value="0">Formoid</option>
+                          <option value="1">Product 2</option>
+                          <option value="2">Product 3</option>
+                          <option value="3">Product 4</option>
+                        </select>
+                      </div>
+                </p>
+                <p>
+                    <label>Version*</label>
+                    <input id="version" type="text" name="version">
+                </p>
+                <p>
+                    <label>License:</label>
+                    <div class="radioOption">
+                        <div>
+                            <input type="radio" name="free" value="free"> Free
+                        </div>
+                        <div class="business">
+                            <input type="radio" name="business" value="business"> Business
+                        </div>
+                       
+                    </div>
+                    
+                </p>
+                <p>
+                    <label>Severity:</label>
+                    <div class="custom-select">
+                        <select>
+                          <option value="0">Critical</option>
+                          <option value="1">Low</option>
+                          <option value="2">Normal</option>
+                          <option value="3">High</option>
+                        </select>
+                    </div>
+                </p>
+                <label>Attachement</label>
+                <div class="file-a">
+                    
+                    <label for="file-upload" class="custom-file-upload">
+                        No file Selected
+                    </label>
+                    <label for="file-upload" class="button-label">
+                         Choose File
+                    </label>
+                    <!-- <button>Choose File</button> -->
+                    <input id="file-upload" type="file">
+                </div>
+                
+            </form>
+            <div class="formFooter">
+                    <button type="submit" form="bugform" value="Submit">Send</button>
+            </div>
+        </div>
+    </container>
+</body>
+</html>

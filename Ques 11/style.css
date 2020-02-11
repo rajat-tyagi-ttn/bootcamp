@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #323232;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+header{
+    background-color: #363636;
+    padding:0;
+    margin: 0;
+    padding-bottom: 20px;;
+}
+h2{
+    margin-left: 10%;
+    color: #ededed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    margin-left: 10%;
+    margin-top: 10px;
+    padding-top: 15px;
+    background-color: black;
+    height: 30px;
+    width: 960px;
+    
+}
+
+nav a{
+    margin-left: 30px;
+}
+
+.content{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.picdiv{
+    height: 360px;
+    width: 960px;
+    background-color: #323232;
+    color: white;
+    /* margin-bottom: 2%; */
+    margin-left: 10%;
+
+    text-align: center;
+    line-height: 360px;
+
+}
+
+.picbottom{
+    width: 960px;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 10px 0 10px 10px;
+    background-color: #efefef;
+    color: #7a7a7a;
+    /* width: 960px; */
+    box-sizing: border-box;
+}
+
+
+
+.galleryheading{
+    margin-left: 10%;
+    color: #7a7a7a;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7a7a7a;
+    width: 960px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.galleryContainer{
+    margin-left: 10%;
+    padding: 10px 10px 10px 0px;
+    width: 960px !important;    
+}
+/* .gallerycontain{
+    width: 960px;;
+} */
+
+.galleryitem{
+    border: solid 1px #afafaf;
+    padding: 2px;
+}
+
+.cards{
+    width: 215px;
+    height: 315px;
+    background-color: #323232;
+    color: white;
+    text-align: center;
+    line-height: 315px;
+}
+
+.galleryitem p{
+    background-color: #efefef;
+    text-align: center;
+    margin: 0;
+
+}
+footer{
+   
+    background-color: black;
+    padding-top: 20px;
+    
+}
+
+.footerContent{
+    
+    
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #efefef;
+    width: 960px;
+    font-size: 14px;
+    padding-bottom: 15px;
+}

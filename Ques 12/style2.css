@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display : flex;
+    justify-content: space-between;
+    padding: 15px 5px 15px 5px;
+    border-bottom: 2px solid #7a7a7a;
+    color: #1abc9c;
+    padding-left: 2%;
+}
+
+
+
+header div p{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.report{
+   
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: solid 1px;
+}
+
+.formHeading{
+    background-color: #bcc3ca;
+    color: #ffffff;
+    padding: 10px;
+}
+
+form{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-bottom: 2%; */
+    line-height:1.5;
+}
+
+form label{
+    display: block;
+    width: 100%;
+}
+form p input[type=text],textarea,select{
+    width: 100%;
+}
+
+form textarea{
+    height: 100px;
+}
+
+form p input[type=text], textarea{
+    border-radius: 5px;
+}
+
+.custom-select select{
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 6px;
+}
+
+
+#version{
+    width: 100px;
+    height: 30px;
+}
+
+
+
+.radioOption div{
+  
+    display: inline-block;
+    width: 47%;
+    margin: auto;
+}
+
+.file-a{
+    display: flex;
+    justify-content: flex-start;
+}
+
+input[type="file"] {
+    display: none;
+}
+div .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+div .button-label{
+    width:30%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 2px 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #7a7a7a;
+    color: white;
+
+}
+
+.file-a button{
+    background-color: #7a7a7a;
+    color: white;
+    border-radius:0 5px 0 0 ;
+    width: 120px;
+}
+
+.formFooter{
+    background-color: #edeff1;
+    height: 60px;
+    margin-top: 2%;
+
+}
+.formFooter button{
+    margin:3%;
+    float: right;
+    background-color:#1abc9c;
+    
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 1% 2% 1% 2%;
+}
