@@ -1,0 +1,42 @@
+
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: #1abc9c;
+}
+
+.navbar-default .navbar-brand {
+    color: #1abc9c;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+    color: #1abc9c;
+}
+
+.form-box{
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.formheading{
+    background-color: #bcc3ca;
+    padding-left: 5%;
+    color: white;
+    
+}
+.formheading h4{
+    font-weight: 800;
+}
+
+.formbody{
+    padding: 5%;
+}
+
+.form-group select{
+    background-color: #1abc9c;
+    color: #fff;
+    font-weight: 500;
+}
+

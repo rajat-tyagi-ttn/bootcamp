@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Report</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+           
+            <a class="navbar-brand" href="#">TO THE NEW</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quick Help</a></li>
+             
+            </ul>
+          
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container form-box">
+        <div class="row formheading">
+            <h4>Bug Report</h4>
+        </div>
+        <div class="row formbody">
+            <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="title">Titile:</label>
+                  <input type="text" class="form-control" id="title" placeholder="" name="title">
+                </div>
+                <div class="form-group">
+                  <label for="desc">Password:</label>
+                  <textarea class="form-control" rows="3" id="comment"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="sel1">Operating System:</label>
+                    <select class="form-control" id="OS">
+                      <option>Windows XP</option>
+                      <option>Windows 7</option>
+                      <option>Windows 10</option>
+                      <option>Linux</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="sel1">Product</label>
+                    <select class="form-control" id="product">
+                      <option>formoid</option>
+                      <option>Product 2</option>
+                      <option>Product 3</option>
+                      <option>Product 4</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="radio-inline"><input type="radio" name="Free" checked>Free</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="radio-inline"><input type="radio" name="Bussiness" checked>Bussiness</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="sel1">Severity</label>
+                    <select class="form-control" id="product">
+                      <option value="0">Critical</option>
+                      <option value="1">Low</option>
+                      <option value="2">Normal</option>
+                      <option value="3">High</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01">
+                      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <!-- <div class="container"> -->
+            
+
+        <!-- </div> -->
+        
+    </div>
+      
+    
+</body>
+</html>
