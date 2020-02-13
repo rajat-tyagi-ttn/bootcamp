@@ -26,6 +26,21 @@
         }
     }
 
+
+    console.log('groupByAge');
+    res ={}
+    list.forEach(myfunc);
+    console.log(res);
+
+    function myfunc(item){
+        if (!res.hasOwnProperty(item.age)){
+            res[item.age] = [];
+        }
+       
+        res[item.age].push(item);
+        
+    }
+
     console.log("Fetch employees with salary less than 1000 and age greater than 20. Then give them an increment 5 times their salary.")
     for(var i = 0 ;i<list.length;i++){
         if(list[i].age > 20 && list[i].salary < 1000) {
