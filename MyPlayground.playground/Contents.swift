@@ -152,6 +152,139 @@ import UIKit
 
 var nestedDict : [String:Any] = ["one":["nestedKey":"nestedValue"],"two":"someValue","three":"anything"]
 //print(nestedDict)
-for(key, _ ) in nestedDict{
-    print("key: \(key)")
+//for(key, _ ) in nestedDict{
+//    print("key: \(key)")
+//}
+
+
+
+enum country:String{
+    case america,india,britain,japan,china,defaultCountry
 }
+enum department:String{
+    case ios,android,jvm,fullStack,web,defaultDepartment
+}
+enum branch:String{
+    case america,india,britain,japan,china,defaultBranch
+}
+
+struct EmployeePersonal{
+    var employeeId : Int
+    var name : String
+    var Country = country.defaultCountry
+    var address : String
+    var hobbies : String?
+}
+
+struct EmployeeProfessional{
+    var employeeId : Int
+    var name : String
+    var Department = department.defaultDepartment
+    var Branch = branch.defaultBranch
+    var experience : Int
+}
+
+struct Employee{
+    var employeeId : Int
+    var name : String
+    
+    var Country = country.defaultCountry
+    var address : String
+    var hobbies : String?
+
+   var Department = department.defaultDepartment
+  
+   var Branch = branch.defaultBranch
+   var experience : Int
+}
+
+
+var personalArray : [EmployeePersonal] = [EmployeePersonal(employeeId: 1, name: "Rajat", Country: .india, address: "XYZ", hobbies: "Coding"),
+                    EmployeePersonal(employeeId: 3, name: "Anupam", Country: .japan, address: "ABC", hobbies: "Reading"),
+                    EmployeePersonal(employeeId: 2, name: "Sreyansh", Country: .india, address: "QWE", hobbies: nil),
+                    EmployeePersonal(employeeId: 4, name: "Subarno", Country: .britain, address: "VCX", hobbies: "Cricket"),
+                    EmployeePersonal(employeeId: 8, name: "Nilesh", Country: .america, address: "LKJH", hobbies: "Tennis"),]
+
+var professionalArray : [EmployeeProfessional] = [EmployeeProfessional(employeeId: 2, name: "Sreyansh", Department: .ios, Branch: .japan,                        experience:4),
+                        EmployeeProfessional(employeeId: 4, name: "Subarno", Department: .android, Branch: .japan, experience:5),
+                        EmployeeProfessional(employeeId: 1, name: "Rajat", Department: .ios, Branch: .japan, experience:5),
+                        EmployeeProfessional(employeeId: 3, name: "Anupam", Department: .jvm, Branch: .america, experience:2),
+                        EmployeeProfessional(employeeId: 8, name: "Nilesh", Department: .fullStack, Branch: .india, experience:4),]
+
+var thirdArray : [Employee] = []
+
+for personalItem in personalArray{
+    for profesionalItem in professionalArray{
+        
+        if personalItem.employeeId == profesionalItem.employeeId{
+            var tempEmployee : Employee = Employee(employeeId: personalItem.employeeId, name: personalItem.name,Country: personalItem.Country, address: personalItem.address, hobbies: personalItem.hobbies, Department: profesionalItem.Department,Branch: profesionalItem.Branch, experience: profesionalItem.experience)
+            thirdArray.append(tempEmployee)
+        }
+    }
+}
+//for ele in thirdArray{
+//    print(ele.name)
+//}
+
+
+
+
+
+
+//var dp = "ios"
+//func dept(emp : [EmployeeProfessional], dptmt : String){
+//    for item in emp{
+//        if item.Department.rawValue==dptmt{
+//            print(item)
+//        }
+//    }
+//}
+//dept(emp: professionalArray, dptmt: dp)
+
+
+
+//func sameCountry(emp:[Employee]){
+//    for  i in 0...emp.count-1{
+//
+//        for  j in 0...emp.count-1{
+//
+//            if emp[i].employeeId == emp[j].employeeId{
+//                continue
+//            }
+//            else{
+//                if emp[i].Country == emp[j].Country && emp[i].Branch == emp[j].Branch{
+//                    print("Employee with same country : \(emp[i].Country) and same Branch : \(emp[i].Branch) are :")
+//                    print(emp[i].name)
+//                    print(emp[j].name)
+//
+//                }
+//            }
+//
+//        }
+//
+//    }
+//}
+//
+//sameCountry(emp: thirdArray)
+
+
+
+//func hobExp(emp : [Employee]){
+//    for item in emp{
+//        if item.hobbies != nil{
+//            print("Name : \(item.name) and Experience \(item.experience)")
+//        }
+//    }
+//}
+//
+//hobExp(emp: thirdArray)
+
+func startWithS(emp : [EmployeePersonal]){
+    for item in emp{
+        if item.name.starts(with: "S"){
+            print(item.name)
+        }
+    }
+}
+
+startWithS(emp: personalArray)
