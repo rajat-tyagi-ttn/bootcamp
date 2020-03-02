@@ -80,7 +80,7 @@
                                     <action selector="push" destination="BYZ-38-t0r" eventType="touchUpInside" id="MTG-Dc-ZNl"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GXK-XR-xhC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GXK-XR-xhC">
                                 <rect key="frame" x="136" y="202.5" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.029094834680000001" blue="0.30337065340000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
