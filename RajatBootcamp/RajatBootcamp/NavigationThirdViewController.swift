@@ -1,35 +1,30 @@
 //
-//  SecondViewController.swift
-//  SignUpForm
+//  NavigationThirdViewController.swift
+//  RajatBootcamp
 //
-//  Created by Rajat Tyagi on 28/02/20.
+//  Created by Rajat Tyagi on 02/03/20.
 //  Copyright © 2020 Rajat Tyagi. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class NavigationThirdViewController: UIViewController {
 
-    @IBOutlet weak var secondImageView: UIImageView!
-    var recievedImage : UIImage?
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "HOME"
-        secondImageView.image = recievedImage
-        
-        secondImageView.layer.cornerRadius = secondImageView.frame.height/2
-        secondImageView.clipsToBounds = true
-        
+
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func push() {
+    @IBAction func pushButtonTapped(_ sender: UIButton) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "ThirdViewController")
-        self.navigationController?.pushViewController(vc, animated: true)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "NavigationFourthViewController")
+        self.navigationController!.pushViewController(vc, animated: true)
     }
     
-    
+    @IBAction func popButtonTapped(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
     
     
     
