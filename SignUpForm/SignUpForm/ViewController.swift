@@ -16,21 +16,28 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
 //        case pop
 //    }
     
+    @IBOutlet weak var birthPlaceTextField: UITextField!
     @IBOutlet weak var dateTextField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var switchLabel: UILabel!
     let imagePicker = UIImagePickerController()
     let datePicker = UIDatePicker()
+    let placePicker = UIPickerView()
+    
+    let placeArray = ["India", "U.S.A", "Japan", "China", "Germany", "Africa"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "SIGN UP"
         imagePicker.delegate = self
-        
+        placePicker.delegate = self
+        placePicker.dataSource = self
 
         imageView.layer.cornerRadius = imageView.frame.height/2
         imageView.clipsToBounds = true
         
+        birthPlaceTextField.inputView = placePicker
         createDatePicker()
         
         
@@ -54,7 +61,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
     @objc func donePressed() {
         
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "DD/MM/YYYY"
+        dateFormatter.dateFormat = "dd/MM/YYYY"
         
         
         dateTextField.text = dateFormatter.string(from: datePicker.date)
@@ -130,4 +137,24 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
 
 }
 
+extension ViewController : UIPickerViewDelegate, UIPickerViewDataSource{
 
+func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    1
+}
+
+
+func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    return placeArray.count
+}
+
+func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+      return placeArray[row]
+}
+  
+func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+      birthPlaceTextField.text = placeArray[row]
+      birthPlaceTextField.resignFirstResponder()
+}
+
+}

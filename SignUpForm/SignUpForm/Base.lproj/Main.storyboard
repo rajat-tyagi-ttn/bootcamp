@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SignUpForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="SignUpForm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,6 +101,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="KOh-0i-k9q"/>
                     <connections>
+                        <outlet property="birthPlaceTextField" destination="a2n-8k-MlJ" id="I4T-0i-jyT"/>
                         <outlet property="dateTextField" destination="F9i-0v-bBS" id="OyG-Lj-kgx"/>
                         <outlet property="imageView" destination="GXK-XR-xhC" id="BnT-HQ-pyW"/>
                         <outlet property="switchLabel" destination="uSq-4c-I2K" id="hDh-FF-I9A"/>
