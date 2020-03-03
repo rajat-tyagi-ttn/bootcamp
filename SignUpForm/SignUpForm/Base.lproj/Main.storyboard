@@ -101,6 +101,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="KOh-0i-k9q"/>
                     <connections>
+                        <outlet property="dateTextField" destination="F9i-0v-bBS" id="OyG-Lj-kgx"/>
                         <outlet property="imageView" destination="GXK-XR-xhC" id="BnT-HQ-pyW"/>
                         <outlet property="switchLabel" destination="uSq-4c-I2K" id="hDh-FF-I9A"/>
                     </connections>

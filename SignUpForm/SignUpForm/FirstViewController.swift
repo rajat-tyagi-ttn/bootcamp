@@ -16,9 +16,11 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
 //        case pop
 //    }
     
+    @IBOutlet weak var dateTextField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var switchLabel: UILabel!
     let imagePicker = UIImagePickerController()
+    let datePicker = UIDatePicker()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +31,36 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
         imageView.layer.cornerRadius = imageView.frame.height/2
         imageView.clipsToBounds = true
         
-        // Do any additional setup after loading the view.
+        createDatePicker()
+        
+        
     }
+    
+    
+    func createDatePicker() {
+        let toolbar = UIToolbar()
+        toolbar.sizeToFit()
+        
+        let done = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
+        toolbar.setItems([done], animated: true)
+        
+        dateTextField.inputAccessoryView = toolbar
+        dateTextField.inputView = datePicker
+        
+        datePicker.datePickerMode = .date
+        
+    }
+    
+    @objc func donePressed() {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "DD/MM/YYYY"
+        
+        
+        dateTextField.text = dateFormatter.string(from: datePicker.date)
+        self.view.endEditing(true)
+    }
+    
     
     @IBAction func loadImageButtonTapped(_ sender: UIButton) {
         imagePicker.allowsEditing = true
@@ -69,8 +99,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
         }
         else{
             print("Switch is Off")
-         
-            
+           
         }
         
         
