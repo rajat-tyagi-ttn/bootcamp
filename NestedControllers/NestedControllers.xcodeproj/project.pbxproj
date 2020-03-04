@@ -17,6 +17,7 @@
 		0440208A240ED17400179729 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402089240ED17400179729 /* TabOneViewController.swift */; };
 		0440208C240ED18400179729 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440208B240ED18400179729 /* TabTwoViewController.swift */; };
 		0440208E240ED6A500179729 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440208D240ED6A500179729 /* MainTabBar.swift */; };
+		04402094240F65D700179729 /* CustomViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402093240F65D700179729 /* CustomViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		04402089240ED17400179729 /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		0440208B240ED18400179729 /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
 		0440208D240ED6A500179729 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		04402093240F65D700179729 /* CustomViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +109,9 @@
 				04402059240ECE7500179729 /* SceneDelegate.swift */,
 				0440205D240ECE7500179729 /* Main.storyboard */,
 				0440208D240ED6A500179729 /* MainTabBar.swift */,
-				0440208B240ED18400179729 /* TabTwoViewController.swift */,
+				04402093240F65D700179729 /* CustomViewVC.swift */,
 				04402089240ED17400179729 /* TabOneViewController.swift */,
+				0440208B240ED18400179729 /* TabTwoViewController.swift */,
 				04402060240ECE7700179729 /* Assets.xcassets */,
 				04402062240ECE7700179729 /* LaunchScreen.storyboard */,
 				04402065240ECE7700179729 /* Info.plist */,
@@ -269,6 +272,7 @@
 				0440208C240ED18400179729 /* TabTwoViewController.swift in Sources */,
 				04402058240ECE7500179729 /* AppDelegate.swift in Sources */,
 				0440208E240ED6A500179729 /* MainTabBar.swift in Sources */,
+				04402094240F65D700179729 /* CustomViewVC.swift in Sources */,
 				0440205A240ECE7500179729 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
