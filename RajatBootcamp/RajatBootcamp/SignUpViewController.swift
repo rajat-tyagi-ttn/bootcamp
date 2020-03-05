@@ -85,21 +85,21 @@ class SignUpViewController: UIViewController,UIImagePickerControllerDelegate, UI
     
     @IBAction func switchAction(_ sender: UISwitch) {
         if sender.isOn{
-                   print("Switch is On")
-                  
-                   
-               }
-               else{
-                   print("Switch is Off")
-                  
-               }
+           print("Switch is On")
+         
+       }
+       else{
+            
+           print("Switch is Off")
+          
+       }
     }
     
 }
 extension SignUpViewController : UIPickerViewDelegate, UIPickerViewDataSource{
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        1
+        return 1
     }
     
     
