@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043ADBA224161B7F00766F5F /* SignupPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ADBA124161B7F00766F5F /* SignupPageVC.swift */; };
+		043ADBA42416212500766F5F /* DisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ADBA32416212500766F5F /* DisplayVC.swift */; };
+		043ADBA92416220300766F5F /* DisplayInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ADBA72416220300766F5F /* DisplayInfoCell.swift */; };
+		043ADBAA2416220300766F5F /* DisplayInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043ADBA82416220300766F5F /* DisplayInfoCell.xib */; };
 		043DEFC8240D697500F1766A /* NavigationFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */; };
 		043DEFCA240D699600F1766A /* NavigationSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */; };
 		043DEFCC240D69AA00F1766A /* NavigationThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043ADBA124161B7F00766F5F /* SignupPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPageVC.swift; sourceTree = "<group>"; };
+		043ADBA32416212500766F5F /* DisplayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayVC.swift; sourceTree = "<group>"; };
+		043ADBA72416220300766F5F /* DisplayInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInfoCell.swift; sourceTree = "<group>"; };
+		043ADBA82416220300766F5F /* DisplayInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayInfoCell.xib; sourceTree = "<group>"; };
 		043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFirstViewController.swift; sourceTree = "<group>"; };
 		043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSecondViewController.swift; sourceTree = "<group>"; };
 		043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationThirdViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +104,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043ADBA024161B3900766F5F /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				043ADBA32416212500766F5F /* DisplayVC.swift */,
+				043ADBA72416220300766F5F /* DisplayInfoCell.swift */,
+				043ADBA82416220300766F5F /* DisplayInfoCell.xib */,
+				043ADBA124161B7F00766F5F /* SignupPageVC.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
+		043ADBA52416217C00766F5F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */,
+				043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */,
+				043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */,
+				043DEFCD240D69B900F1766A /* NavigationFourthViewController.swift */,
+				043DEFCF240D69C700F1766A /* NavigationFifthViewController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		043ADBA6241621AA00766F5F /* AutoLayout1 */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E14C2410A718000B8984 /* AutoLayoutVC1.swift */,
+				04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */,
+				04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */,
+			);
+			path = AutoLayout1;
+			sourceTree = "<group>";
+		};
+		044426E424188D1600AB58DA /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				043DEFD1240D721600F1766A /* SignUpViewController.swift */,
+				043DEFD3240D722100F1766A /* HomeViewController.swift */,
+				043DEFD5240D724300F1766A /* SegmentControlViewController.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
 		04488AC6240CE3540021CE46 = {
 			isa = PBXGroup;
 			children = (
@@ -121,18 +172,11 @@
 			children = (
 				04488AD2240CE3540021CE46 /* AppDelegate.swift */,
 				04488AD4240CE3540021CE46 /* SceneDelegate.swift */,
-				043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */,
-				043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */,
-				043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */,
-				043DEFCD240D69B900F1766A /* NavigationFourthViewController.swift */,
-				043DEFCF240D69C700F1766A /* NavigationFifthViewController.swift */,
 				04488AD8240CE3540021CE46 /* Main.storyboard */,
-				043DEFD1240D721600F1766A /* SignUpViewController.swift */,
-				043DEFD3240D722100F1766A /* HomeViewController.swift */,
-				043DEFD5240D724300F1766A /* SegmentControlViewController.swift */,
-				04B4E14C2410A718000B8984 /* AutoLayoutVC1.swift */,
-				04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */,
-				04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */,
+				043ADBA52416217C00766F5F /* Navigation */,
+				044426E424188D1600AB58DA /* UIElements */,
+				043ADBA6241621AA00766F5F /* AutoLayout1 */,
+				043ADBA024161B3900766F5F /* Table View */,
 				04B4E18C2410F529000B8984 /* Assets.xcassets */,
 				04488ADD240CE3550021CE46 /* LaunchScreen.storyboard */,
 				04488AE0240CE3550021CE46 /* Info.plist */,
@@ -264,6 +308,7 @@
 			files = (
 				04488ADF240CE3550021CE46 /* LaunchScreen.storyboard in Resources */,
 				04B4E18D2410F529000B8984 /* Assets.xcassets in Resources */,
+				043ADBAA2416220300766F5F /* DisplayInfoCell.xib in Resources */,
 				04488ADA240CE3540021CE46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +336,9 @@
 			files = (
 				043DEFCE240D69B900F1766A /* NavigationFourthViewController.swift in Sources */,
 				043DEFC8240D697500F1766A /* NavigationFirstViewController.swift in Sources */,
+				043ADBA92416220300766F5F /* DisplayInfoCell.swift in Sources */,
 				043DEFD6240D724300F1766A /* SegmentControlViewController.swift in Sources */,
+				043ADBA224161B7F00766F5F /* SignupPageVC.swift in Sources */,
 				043DEFD2240D721600F1766A /* SignUpViewController.swift in Sources */,
 				04488AD3240CE3540021CE46 /* AppDelegate.swift in Sources */,
 				04488AD5240CE3540021CE46 /* SceneDelegate.swift in Sources */,
@@ -299,6 +346,7 @@
 				043DEFCC240D69AA00F1766A /* NavigationThirdViewController.swift in Sources */,
 				04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */,
 				043DEFD0240D69C700F1766A /* NavigationFifthViewController.swift in Sources */,
+				043ADBA42416212500766F5F /* DisplayVC.swift in Sources */,
 				04B4E18F24115811000B8984 /* AutoLayoutVC3.swift in Sources */,
 				043DEFCA240D699600F1766A /* NavigationSecondViewController.swift in Sources */,
 				04B4E14D2410A718000B8984 /* AutoLayoutVC1.swift in Sources */,
