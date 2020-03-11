@@ -34,6 +34,9 @@
 		04E7B1812418AD3E00AB2E90 /* NestedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7B17F2418AD3E00AB2E90 /* NestedTableViewCell.xib */; };
 		04E7B1842418AE2100AB2E90 /* NestedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B1822418AE2100AB2E90 /* NestedCollectionViewCell.swift */; };
 		04E7B1852418AE2100AB2E90 /* NestedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7B1832418AE2100AB2E90 /* NestedCollectionViewCell.xib */; };
+		04E7B1882418CBF800AB2E90 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B1862418CBF800AB2E90 /* MenuTableViewCell.swift */; };
+		04E7B1892418CBF800AB2E90 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7B1872418CBF800AB2E90 /* MenuTableViewCell.xib */; };
+		04E7B18B2418CC1000AB2E90 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B18A2418CC1000AB2E90 /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		04E7B17F2418AD3E00AB2E90 /* NestedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedTableViewCell.xib; sourceTree = "<group>"; };
 		04E7B1822418AE2100AB2E90 /* NestedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedCollectionViewCell.swift; sourceTree = "<group>"; };
 		04E7B1832418AE2100AB2E90 /* NestedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedCollectionViewCell.xib; sourceTree = "<group>"; };
+		04E7B1862418CBF800AB2E90 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		04E7B1872418CBF800AB2E90 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		04E7B18A2418CC1000AB2E90 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +194,9 @@
 				04488AD2240CE3540021CE46 /* AppDelegate.swift */,
 				04488AD4240CE3540021CE46 /* SceneDelegate.swift */,
 				04488AD8240CE3540021CE46 /* Main.storyboard */,
+				04E7B18A2418CC1000AB2E90 /* MenuVC.swift */,
+				04E7B1862418CBF800AB2E90 /* MenuTableViewCell.swift */,
+				04E7B1872418CBF800AB2E90 /* MenuTableViewCell.xib */,
 				043ADBA52416217C00766F5F /* Navigation */,
 				044426E424188D1600AB58DA /* UIElements */,
 				043ADBA6241621AA00766F5F /* AutoLayout1 */,
@@ -322,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E7B1812418AD3E00AB2E90 /* NestedTableViewCell.xib in Resources */,
+				04E7B1892418CBF800AB2E90 /* MenuTableViewCell.xib in Resources */,
 				04488ADF240CE3550021CE46 /* LaunchScreen.storyboard in Resources */,
 				04B4E18D2410F529000B8984 /* Assets.xcassets in Resources */,
 				04E7B1852418AE2100AB2E90 /* NestedCollectionViewCell.xib in Resources */,
@@ -365,8 +375,10 @@
 				04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */,
 				043DEFD0240D69C700F1766A /* NavigationFifthViewController.swift in Sources */,
 				04E7B17D2418AB5700AB2E90 /* NestedTableViewVC.swift in Sources */,
+				04E7B1882418CBF800AB2E90 /* MenuTableViewCell.swift in Sources */,
 				043ADBA42416212500766F5F /* DisplayVC.swift in Sources */,
 				04B4E18F24115811000B8984 /* AutoLayoutVC3.swift in Sources */,
+				04E7B18B2418CC1000AB2E90 /* MenuVC.swift in Sources */,
 				043DEFCA240D699600F1766A /* NavigationSecondViewController.swift in Sources */,
 				04E7B1842418AE2100AB2E90 /* NestedCollectionViewCell.swift in Sources */,
 				04B4E14D2410A718000B8984 /* AutoLayoutVC1.swift in Sources */,
