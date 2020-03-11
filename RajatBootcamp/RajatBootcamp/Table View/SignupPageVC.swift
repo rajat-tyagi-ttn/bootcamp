@@ -33,11 +33,11 @@ class SignupPageVC: UIViewController {
     
     @IBAction func submitButtonTapped(_ sender: UIButton) {
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "DisplayVC") as! DisplayVC
         DisplayVC.userArray.append(DisplayVC.UserDetails(name: nameTextField.text!, address: addressTextField.text!, age: ageTextField.text!, detail: detailTextField.text!, pic: userImageView.image!))
-        print(DisplayVC.userArray)
-        self.navigationController?.popViewController(animated: true)
+//        print(DisplayVC.userArray)
+
+        dismiss(animated: true, completion: nil)
     }
+    
     
 }

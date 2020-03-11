@@ -29,6 +29,11 @@
 		04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */; };
 		04B4E18D2410F529000B8984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4E18C2410F529000B8984 /* Assets.xcassets */; };
 		04B4E18F24115811000B8984 /* AutoLayoutVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */; };
+		04E7B17D2418AB5700AB2E90 /* NestedTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B17C2418AB5700AB2E90 /* NestedTableViewVC.swift */; };
+		04E7B1802418AD3E00AB2E90 /* NestedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B17E2418AD3E00AB2E90 /* NestedTableViewCell.swift */; };
+		04E7B1812418AD3E00AB2E90 /* NestedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7B17F2418AD3E00AB2E90 /* NestedTableViewCell.xib */; };
+		04E7B1842418AE2100AB2E90 /* NestedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B1822418AE2100AB2E90 /* NestedCollectionViewCell.swift */; };
+		04E7B1852418AE2100AB2E90 /* NestedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7B1832418AE2100AB2E90 /* NestedCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +82,11 @@
 		04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC2.swift; sourceTree = "<group>"; };
 		04B4E18C2410F529000B8984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC3.swift; sourceTree = "<group>"; };
+		04E7B17C2418AB5700AB2E90 /* NestedTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewVC.swift; sourceTree = "<group>"; };
+		04E7B17E2418AD3E00AB2E90 /* NestedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewCell.swift; sourceTree = "<group>"; };
+		04E7B17F2418AD3E00AB2E90 /* NestedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedTableViewCell.xib; sourceTree = "<group>"; };
+		04E7B1822418AE2100AB2E90 /* NestedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedCollectionViewCell.swift; sourceTree = "<group>"; };
+		04E7B1832418AE2100AB2E90 /* NestedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +117,15 @@
 		043ADBA024161B3900766F5F /* Table View */ = {
 			isa = PBXGroup;
 			children = (
+				04E7B17C2418AB5700AB2E90 /* NestedTableViewVC.swift */,
+				04E7B17E2418AD3E00AB2E90 /* NestedTableViewCell.swift */,
+				04E7B17F2418AD3E00AB2E90 /* NestedTableViewCell.xib */,
+				04E7B1822418AE2100AB2E90 /* NestedCollectionViewCell.swift */,
+				04E7B1832418AE2100AB2E90 /* NestedCollectionViewCell.xib */,
 				043ADBA32416212500766F5F /* DisplayVC.swift */,
+				043ADBA124161B7F00766F5F /* SignupPageVC.swift */,
 				043ADBA72416220300766F5F /* DisplayInfoCell.swift */,
 				043ADBA82416220300766F5F /* DisplayInfoCell.xib */,
-				043ADBA124161B7F00766F5F /* SignupPageVC.swift */,
 			);
 			path = "Table View";
 			sourceTree = "<group>";
@@ -306,8 +321,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E7B1812418AD3E00AB2E90 /* NestedTableViewCell.xib in Resources */,
 				04488ADF240CE3550021CE46 /* LaunchScreen.storyboard in Resources */,
 				04B4E18D2410F529000B8984 /* Assets.xcassets in Resources */,
+				04E7B1852418AE2100AB2E90 /* NestedCollectionViewCell.xib in Resources */,
 				043ADBAA2416220300766F5F /* DisplayInfoCell.xib in Resources */,
 				04488ADA240CE3540021CE46 /* Main.storyboard in Resources */,
 			);
@@ -336,6 +353,7 @@
 			files = (
 				043DEFCE240D69B900F1766A /* NavigationFourthViewController.swift in Sources */,
 				043DEFC8240D697500F1766A /* NavigationFirstViewController.swift in Sources */,
+				04E7B1802418AD3E00AB2E90 /* NestedTableViewCell.swift in Sources */,
 				043ADBA92416220300766F5F /* DisplayInfoCell.swift in Sources */,
 				043DEFD6240D724300F1766A /* SegmentControlViewController.swift in Sources */,
 				043ADBA224161B7F00766F5F /* SignupPageVC.swift in Sources */,
@@ -346,9 +364,11 @@
 				043DEFCC240D69AA00F1766A /* NavigationThirdViewController.swift in Sources */,
 				04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */,
 				043DEFD0240D69C700F1766A /* NavigationFifthViewController.swift in Sources */,
+				04E7B17D2418AB5700AB2E90 /* NestedTableViewVC.swift in Sources */,
 				043ADBA42416212500766F5F /* DisplayVC.swift in Sources */,
 				04B4E18F24115811000B8984 /* AutoLayoutVC3.swift in Sources */,
 				043DEFCA240D699600F1766A /* NavigationSecondViewController.swift in Sources */,
+				04E7B1842418AE2100AB2E90 /* NestedCollectionViewCell.swift in Sources */,
 				04B4E14D2410A718000B8984 /* AutoLayoutVC1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
