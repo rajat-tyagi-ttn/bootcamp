@@ -12,7 +12,6 @@ class TabOneViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Tab One"
         view.backgroundColor = .white
     }
     
