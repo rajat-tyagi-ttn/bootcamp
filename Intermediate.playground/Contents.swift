@@ -70,27 +70,29 @@ c.equals(Operations.multiply(45, 3))
 c.equals(Operations.divide(75, 3))
 c.equals(Operations.squareroot(81))
 
+struct Operation {
+    
 
-var addClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
-    return num1 + num2!
+    static var addClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
+        return num1 + num2!
+    }
+
+    static var subtractClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
+        return num1 - num2!
+    }
+
+    static var multiplyClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
+        return num1 * num2!
+    }
+
+    static var divideClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
+        return num1 / num2!
+    }
+
+    static var squareRootClosure : ((Double,Double?) -> Double) = {(_ num1 : Double,_ num2 : Double?) -> Double in
+        return num1.squareRoot()
+    }
 }
-
-var subtractClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
-    return num1 - num2!
-}
-
-var multiplyClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
-    return num1 * num2!
-}
-
-var divideClosure : ((Double,Double?) -> Double) = {(_ num1 : Double, _ num2 : Double?) -> Double in
-    return num1 / num2!
-}
-
-var squareRootClosure : ((Double,Double?) -> Double) = {(_ num1 : Double,_ num2 : Double?) -> Double in
-    return num1.squareRoot()
-}
-
  
 class Calc{
     
@@ -107,12 +109,11 @@ class Calc{
 
 var ca = Calc()
 
-ca.equal(2, 6, addClosure)
-ca.equal(14, 7, subtractClosure)
-ca.equal(3, 50, multiplyClosure)
-ca.equal(12, 3, divideClosure)
-ca.equal(81, nil, squareRootClosure)
-
+ca.equal(2, 6, Operation.addClosure)
+ca.equal(14, 7, Operation.subtractClosure)
+ca.equal(3, 50, Operation.multiplyClosure)
+ca.equal(12, 3, Operation.divideClosure)
+ca.equal(81, nil, Operation.squareRootClosure)
 
 
 
