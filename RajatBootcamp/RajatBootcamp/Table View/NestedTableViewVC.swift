@@ -41,6 +41,7 @@ extension NestedTableViewVC : UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return sectionsTitle.count
     }
+    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return sectionsTitle[section]
     }
