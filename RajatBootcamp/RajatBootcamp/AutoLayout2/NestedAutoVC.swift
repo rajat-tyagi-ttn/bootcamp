@@ -208,6 +208,13 @@ class NestedAutoVC: UIViewController {
     }
     
 
+    @IBAction func forwardButtonTapped(_ sender: UIBarButtonItem) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "StackCalculatorVC")
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
     
 
 }
