@@ -37,25 +37,25 @@ class NestedAutoVC: UIViewController {
         // Contraints forthe base view
         
         NSLayoutConstraint.activate([
-            topLeftView.topAnchor.constraint(equalTo: view.topAnchor),
+            topLeftView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             topLeftView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             topLeftView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5),
-            topLeftView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5),
+            topLeftView.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.5),
             
-            topRightView.topAnchor.constraint(equalTo: view.topAnchor),
+            topRightView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             topRightView.leadingAnchor.constraint(equalTo: topLeftView.trailingAnchor),
             topRightView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5),
-            topRightView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5),
+            topRightView.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.5),
             
-            bottomLeftView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            bottomLeftView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             bottomLeftView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             bottomLeftView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5),
-            bottomLeftView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5),
+            bottomLeftView.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.5),
             
-            bottomRightView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            bottomRightView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             bottomRightView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             bottomRightView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5),
-            bottomRightView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.5),
+            bottomRightView.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.5),
             
         ])
         
@@ -137,16 +137,16 @@ class NestedAutoVC: UIViewController {
         //Adding constraint to label
         
         NSLayoutConstraint.activate([
-            topLeftLabel.topAnchor.constraint(equalTo: topLeftSubView.bottomAnchor, constant: 10.0),
+            topLeftLabel.topAnchor.constraint(equalTo: topLeftSubView.bottomAnchor, constant: 5.0),
             topLeftLabel.centerXAnchor.constraint(equalTo: topLeftSubView.centerXAnchor),
             
-            topRightLabel.topAnchor.constraint(equalTo: topRightSubView.bottomAnchor, constant: 10.0),
+            topRightLabel.topAnchor.constraint(equalTo: topRightSubView.bottomAnchor, constant: 5.0),
             topRightLabel.centerXAnchor.constraint(equalTo: topRightSubView.centerXAnchor),
             
-           bottomLeftLabel.topAnchor.constraint(equalTo: bottomLeftSubView.bottomAnchor, constant: 10.0),
+           bottomLeftLabel.topAnchor.constraint(equalTo: bottomLeftSubView.bottomAnchor, constant: 5.0),
             bottomLeftLabel.centerXAnchor.constraint(equalTo: bottomLeftSubView.centerXAnchor),
             
-            bottomRightLabel.topAnchor.constraint(equalTo: bottomRightSubView.bottomAnchor, constant: 10.0),
+            bottomRightLabel.topAnchor.constraint(equalTo: bottomRightSubView.bottomAnchor, constant: 5.0),
            bottomRightLabel.centerXAnchor.constraint(equalTo: bottomRightSubView.centerXAnchor),
             
         ])
