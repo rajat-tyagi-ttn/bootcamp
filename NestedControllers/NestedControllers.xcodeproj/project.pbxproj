@@ -20,6 +20,10 @@
 		04402094240F65D700179729 /* CustomViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04402093240F65D700179729 /* CustomViewVC.swift */; };
 		04C2F1452418EBFF00890AE4 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F1442418EBFF00890AE4 /* MenuVC.swift */; };
 		04C2F1472418EF6F00890AE4 /* MenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F1462418EF6F00890AE4 /* MenuTableCell.swift */; };
+		04D9484724525043008A0A37 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9484624525043008A0A37 /* PageView.swift */; };
+		04D94849245251FF008A0A37 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D94848245251FF008A0A37 /* Page1.swift */; };
+		04D9484B2452520F008A0A37 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9484A2452520F008A0A37 /* Page2.swift */; };
+		04D9484D2452521C008A0A37 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9484C2452521C008A0A37 /* Page3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		04402093240F65D700179729 /* CustomViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewVC.swift; sourceTree = "<group>"; };
 		04C2F1442418EBFF00890AE4 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		04C2F1462418EF6F00890AE4 /* MenuTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableCell.swift; sourceTree = "<group>"; };
+		04D9484624525043008A0A37 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		04D94848245251FF008A0A37 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		04D9484A2452520F008A0A37 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		04D9484C2452521C008A0A37 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 				0440205D240ECE7500179729 /* Main.storyboard */,
 				04C2F1442418EBFF00890AE4 /* MenuVC.swift */,
 				04C2F1462418EF6F00890AE4 /* MenuTableCell.swift */,
+				04D9484E2452567D008A0A37 /* PageViewController */,
 				04F3C7032418F98A00F13430 /* Tab Programatically */,
 				04F3C7052418F9B400F13430 /* Custom View */,
 				04F3C7042418F99C00F13430 /* Tab StoryBoard */,
@@ -140,6 +149,17 @@
 				0440207B240ECE7800179729 /* Info.plist */,
 			);
 			path = NestedControllersUITests;
+			sourceTree = "<group>";
+		};
+		04D9484E2452567D008A0A37 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04D9484624525043008A0A37 /* PageView.swift */,
+				04D94848245251FF008A0A37 /* Page1.swift */,
+				04D9484C2452521C008A0A37 /* Page3.swift */,
+				04D9484A2452520F008A0A37 /* Page2.swift */,
+			);
+			path = PageViewController;
 			sourceTree = "<group>";
 		};
 		04F3C7032418F98A00F13430 /* Tab Programatically */ = {
@@ -298,13 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D9484B2452520F008A0A37 /* Page2.swift in Sources */,
 				0440208A240ED17400179729 /* TabOneViewController.swift in Sources */,
+				04D9484D2452521C008A0A37 /* Page3.swift in Sources */,
 				0440208C240ED18400179729 /* TabTwoViewController.swift in Sources */,
 				04402058240ECE7500179729 /* AppDelegate.swift in Sources */,
 				04C2F1472418EF6F00890AE4 /* MenuTableCell.swift in Sources */,
 				04C2F1452418EBFF00890AE4 /* MenuVC.swift in Sources */,
 				0440208E240ED6A500179729 /* MainTabBar.swift in Sources */,
 				04402094240F65D700179729 /* CustomViewVC.swift in Sources */,
+				04D9484724525043008A0A37 /* PageView.swift in Sources */,
+				04D94849245251FF008A0A37 /* Page1.swift in Sources */,
 				0440205A240ECE7500179729 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

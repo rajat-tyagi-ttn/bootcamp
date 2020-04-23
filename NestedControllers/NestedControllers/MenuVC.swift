@@ -13,9 +13,9 @@ class MenuVC: UIViewController {
 
     
     @IBOutlet weak var tableView: UITableView!
-    var menuItems = ["Tab Bar Programatically","Tab Bar from Story Board","Custom View"]
+    var menuItems = ["Tab Bar Programatically","Tab Bar from Story Board","Custom View","Page View Programatically"]
     
-    var viewControllerNames = ["MainTabBar","StoryBoardTabBar","CustomViewVC"]
+    var viewControllerNames = ["MainTabBar","StoryBoardTabBar","CustomViewVC","PageView"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
