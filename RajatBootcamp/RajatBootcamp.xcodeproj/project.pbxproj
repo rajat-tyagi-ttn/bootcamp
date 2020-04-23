@@ -121,18 +121,10 @@
 			children = (
 				04488AD2240CE3540021CE46 /* AppDelegate.swift */,
 				04488AD4240CE3540021CE46 /* SceneDelegate.swift */,
-				043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */,
-				043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */,
-				043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */,
-				043DEFCD240D69B900F1766A /* NavigationFourthViewController.swift */,
-				043DEFCF240D69C700F1766A /* NavigationFifthViewController.swift */,
 				04488AD8240CE3540021CE46 /* Main.storyboard */,
-				043DEFD1240D721600F1766A /* SignUpViewController.swift */,
-				043DEFD3240D722100F1766A /* HomeViewController.swift */,
-				043DEFD5240D724300F1766A /* SegmentControlViewController.swift */,
-				04B4E14C2410A718000B8984 /* AutoLayoutVC1.swift */,
-				04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */,
-				04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */,
+				04D94851245257C6008A0A37 /* UI Kit Intro */,
+				04D948502452579E008A0A37 /* Ui Elements */,
+				04D9485224525802008A0A37 /* AutoLayout */,
 				04B4E18C2410F529000B8984 /* Assets.xcassets */,
 				04488ADD240CE3550021CE46 /* LaunchScreen.storyboard */,
 				04488AE0240CE3550021CE46 /* Info.plist */,
@@ -156,6 +148,38 @@
 				04488AF6240CE3550021CE46 /* Info.plist */,
 			);
 			path = RajatBootcampUITests;
+			sourceTree = "<group>";
+		};
+		04D948502452579E008A0A37 /* Ui Elements */ = {
+			isa = PBXGroup;
+			children = (
+				043DEFD1240D721600F1766A /* SignUpViewController.swift */,
+				043DEFD3240D722100F1766A /* HomeViewController.swift */,
+				043DEFD5240D724300F1766A /* SegmentControlViewController.swift */,
+			);
+			path = "Ui Elements";
+			sourceTree = "<group>";
+		};
+		04D94851245257C6008A0A37 /* UI Kit Intro */ = {
+			isa = PBXGroup;
+			children = (
+				043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */,
+				043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */,
+				043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */,
+				043DEFCD240D69B900F1766A /* NavigationFourthViewController.swift */,
+				043DEFCF240D69C700F1766A /* NavigationFifthViewController.swift */,
+			);
+			path = "UI Kit Intro";
+			sourceTree = "<group>";
+		};
+		04D9485224525802008A0A37 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E14C2410A718000B8984 /* AutoLayoutVC1.swift */,
+				04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */,
+				04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */,
+			);
+			path = AutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
