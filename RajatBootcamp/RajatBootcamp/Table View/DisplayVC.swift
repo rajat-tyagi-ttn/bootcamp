@@ -22,7 +22,7 @@ class DisplayVC: UIViewController {
         var pic : UIImage
     }
     
-    public static var userArray : [UserDetails] = [UserDetails(name: "Rajat", address: "qwerty", age: "22", detail: "asdfg", pic: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.8470588235)),
+    public static var userArray : [UserDetails] = [UserDetails(name: "Rajat", address: "qwerty", age: "22", detail: "asdfg", pic: #imageLiteral(resourceName: "1")),
         UserDetails(name: "Sparsh", address: "qwerty", age: "20", detail: "adsfgsgsg", pic: #imageLiteral(resourceName: "1")),
     ]
 
