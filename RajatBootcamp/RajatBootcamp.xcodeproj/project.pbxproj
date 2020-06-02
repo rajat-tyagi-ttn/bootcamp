@@ -31,6 +31,8 @@
 		04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */; };
 		04B4E18D2410F529000B8984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4E18C2410F529000B8984 /* Assets.xcassets */; };
 		04B4E18F24115811000B8984 /* AutoLayoutVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */; };
+		04DC48CE248658F200D56591 /* SelfSizingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC48CD248658F200D56591 /* SelfSizingCollectionViewController.swift */; };
+		04DC48D024865F6500D56591 /* SelfSizingTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC48CF24865F6500D56591 /* SelfSizingTableViewViewController.swift */; };
 		04E7B17D2418AB5700AB2E90 /* NestedTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B17C2418AB5700AB2E90 /* NestedTableViewVC.swift */; };
 		04E7B1802418AD3E00AB2E90 /* NestedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7B17E2418AD3E00AB2E90 /* NestedTableViewCell.swift */; };
 		04E7B1812418AD3E00AB2E90 /* NestedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E7B17F2418AD3E00AB2E90 /* NestedTableViewCell.xib */; };
@@ -89,6 +91,8 @@
 		04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC2.swift; sourceTree = "<group>"; };
 		04B4E18C2410F529000B8984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B4E18E24115811000B8984 /* AutoLayoutVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC3.swift; sourceTree = "<group>"; };
+		04DC48CD248658F200D56591 /* SelfSizingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCollectionViewController.swift; sourceTree = "<group>"; };
+		04DC48CF24865F6500D56591 /* SelfSizingTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingTableViewViewController.swift; sourceTree = "<group>"; };
 		04E7B17C2418AB5700AB2E90 /* NestedTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewVC.swift; sourceTree = "<group>"; };
 		04E7B17E2418AD3E00AB2E90 /* NestedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewCell.swift; sourceTree = "<group>"; };
 		04E7B17F2418AD3E00AB2E90 /* NestedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedTableViewCell.xib; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 				044426E424188D1600AB58DA /* UIElements */,
 				043ADBA6241621AA00766F5F /* AutoLayout1 */,
 				04454AD1241F4C71003AB37E /* AutoLayout2 */,
+				04DC48CC248658C500D56591 /* AutoLayout3 */,
 				043ADBA024161B3900766F5F /* Table View */,
 				04B4E18C2410F529000B8984 /* Assets.xcassets */,
 				04488ADD240CE3550021CE46 /* LaunchScreen.storyboard */,
@@ -238,6 +243,15 @@
 				04488AF6240CE3550021CE46 /* Info.plist */,
 			);
 			path = RajatBootcampUITests;
+			sourceTree = "<group>";
+		};
+		04DC48CC248658C500D56591 /* AutoLayout3 */ = {
+			isa = PBXGroup;
+			children = (
+				04DC48CD248658F200D56591 /* SelfSizingCollectionViewController.swift */,
+				04DC48CF24865F6500D56591 /* SelfSizingTableViewViewController.swift */,
+			);
+			path = AutoLayout3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +401,8 @@
 				04488AD5240CE3540021CE46 /* SceneDelegate.swift in Sources */,
 				043DEFD4240D722100F1766A /* HomeViewController.swift in Sources */,
 				043DEFCC240D69AA00F1766A /* NavigationThirdViewController.swift in Sources */,
+				04DC48CE248658F200D56591 /* SelfSizingCollectionViewController.swift in Sources */,
+				04DC48D024865F6500D56591 /* SelfSizingTableViewViewController.swift in Sources */,
 				04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */,
 				04ABC35C241FFC82003E10D3 /* StackCalculatorVC.swift in Sources */,
 				043DEFD0240D69C700F1766A /* NavigationFifthViewController.swift in Sources */,
