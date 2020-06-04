@@ -11,6 +11,13 @@
 		043ADBA42416212500766F5F /* DisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ADBA32416212500766F5F /* DisplayVC.swift */; };
 		043ADBA92416220300766F5F /* DisplayInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043ADBA72416220300766F5F /* DisplayInfoCell.swift */; };
 		043ADBAA2416220300766F5F /* DisplayInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043ADBA82416220300766F5F /* DisplayInfoCell.xib */; };
+		043DB9D82488DC5D004AAE5C /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DB9D72488DC5D004AAE5C /* GalleryItem.swift */; };
+		043DB9DA2488DCAC004AAE5C /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DB9D92488DCAC004AAE5C /* ApiManager.swift */; };
+		043DB9DC2488DCD1004AAE5C /* JSONReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DB9DB2488DCD1004AAE5C /* JSONReadWrite.swift */; };
+		043DB9DE2488DD91004AAE5C /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DB9DD2488DD91004AAE5C /* GalleryController.swift */; };
+		043DB9E02488E01E004AAE5C /* ImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DB9DF2488E01E004AAE5C /* ImageViewerController.swift */; };
+		043DB9E32488EBA7004AAE5C /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DB9E12488EBA7004AAE5C /* ImageCollectionViewCell.swift */; };
+		043DB9E42488EBA7004AAE5C /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043DB9E22488EBA7004AAE5C /* ImageCollectionViewCell.xib */; };
 		043DEFC8240D697500F1766A /* NavigationFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */; };
 		043DEFCA240D699600F1766A /* NavigationSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */; };
 		043DEFCC240D69AA00F1766A /* NavigationThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */; };
@@ -65,6 +72,13 @@
 		043ADBA32416212500766F5F /* DisplayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayVC.swift; sourceTree = "<group>"; };
 		043ADBA72416220300766F5F /* DisplayInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInfoCell.swift; sourceTree = "<group>"; };
 		043ADBA82416220300766F5F /* DisplayInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayInfoCell.xib; sourceTree = "<group>"; };
+		043DB9D72488DC5D004AAE5C /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		043DB9D92488DCAC004AAE5C /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		043DB9DB2488DCD1004AAE5C /* JSONReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReadWrite.swift; sourceTree = "<group>"; };
+		043DB9DD2488DD91004AAE5C /* GalleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryController.swift; sourceTree = "<group>"; };
+		043DB9DF2488E01E004AAE5C /* ImageViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerController.swift; sourceTree = "<group>"; };
+		043DB9E12488EBA7004AAE5C /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		043DB9E22488EBA7004AAE5C /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		043DEFC7240D697500F1766A /* NavigationFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFirstViewController.swift; sourceTree = "<group>"; };
 		043DEFC9240D699600F1766A /* NavigationSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSecondViewController.swift; sourceTree = "<group>"; };
 		043DEFCB240D69AA00F1766A /* NavigationThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationThirdViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +180,20 @@
 			path = AutoLayout1;
 			sourceTree = "<group>";
 		};
+		043DB9D62488DBFF004AAE5C /* GalleryApplication */ = {
+			isa = PBXGroup;
+			children = (
+				043DB9D72488DC5D004AAE5C /* GalleryItem.swift */,
+				043DB9D92488DCAC004AAE5C /* ApiManager.swift */,
+				043DB9DB2488DCD1004AAE5C /* JSONReadWrite.swift */,
+				043DB9DD2488DD91004AAE5C /* GalleryController.swift */,
+				043DB9E12488EBA7004AAE5C /* ImageCollectionViewCell.swift */,
+				043DB9E22488EBA7004AAE5C /* ImageCollectionViewCell.xib */,
+				043DB9DF2488E01E004AAE5C /* ImageViewerController.swift */,
+			);
+			path = GalleryApplication;
+			sourceTree = "<group>";
+		};
 		044426E424188D1600AB58DA /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +248,7 @@
 				04454AD1241F4C71003AB37E /* AutoLayout2 */,
 				04DC48CC248658C500D56591 /* AutoLayout3 */,
 				043ADBA024161B3900766F5F /* Table View */,
+				043DB9D62488DBFF004AAE5C /* GalleryApplication */,
 				04B4E18C2410F529000B8984 /* Assets.xcassets */,
 				04488ADD240CE3550021CE46 /* LaunchScreen.storyboard */,
 				04488AE0240CE3550021CE46 /* Info.plist */,
@@ -364,6 +393,7 @@
 				04B4E18D2410F529000B8984 /* Assets.xcassets in Resources */,
 				04E7B1852418AE2100AB2E90 /* NestedCollectionViewCell.xib in Resources */,
 				043ADBAA2416220300766F5F /* DisplayInfoCell.xib in Resources */,
+				043DB9E42488EBA7004AAE5C /* ImageCollectionViewCell.xib in Resources */,
 				04488ADA240CE3540021CE46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043DEFCE240D69B900F1766A /* NavigationFourthViewController.swift in Sources */,
+				043DB9DA2488DCAC004AAE5C /* ApiManager.swift in Sources */,
 				043DEFC8240D697500F1766A /* NavigationFirstViewController.swift in Sources */,
 				04E7B1802418AD3E00AB2E90 /* NestedTableViewCell.swift in Sources */,
 				043ADBA92416220300766F5F /* DisplayInfoCell.swift in Sources */,
@@ -400,20 +431,25 @@
 				04488AD3240CE3540021CE46 /* AppDelegate.swift in Sources */,
 				04488AD5240CE3540021CE46 /* SceneDelegate.swift in Sources */,
 				043DEFD4240D722100F1766A /* HomeViewController.swift in Sources */,
+				043DB9D82488DC5D004AAE5C /* GalleryItem.swift in Sources */,
 				043DEFCC240D69AA00F1766A /* NavigationThirdViewController.swift in Sources */,
 				04DC48CE248658F200D56591 /* SelfSizingCollectionViewController.swift in Sources */,
 				04DC48D024865F6500D56591 /* SelfSizingTableViewViewController.swift in Sources */,
 				04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */,
+				043DB9E02488E01E004AAE5C /* ImageViewerController.swift in Sources */,
 				04ABC35C241FFC82003E10D3 /* StackCalculatorVC.swift in Sources */,
 				043DEFD0240D69C700F1766A /* NavigationFifthViewController.swift in Sources */,
 				04E7B17D2418AB5700AB2E90 /* NestedTableViewVC.swift in Sources */,
 				04E7B1882418CBF800AB2E90 /* MenuTableViewCell.swift in Sources */,
+				043DB9E32488EBA7004AAE5C /* ImageCollectionViewCell.swift in Sources */,
 				043ADBA42416212500766F5F /* DisplayVC.swift in Sources */,
 				04B4E18F24115811000B8984 /* AutoLayoutVC3.swift in Sources */,
 				04E7B18B2418CC1000AB2E90 /* MenuVC.swift in Sources */,
 				043DEFCA240D699600F1766A /* NavigationSecondViewController.swift in Sources */,
 				04E7B1842418AE2100AB2E90 /* NestedCollectionViewCell.swift in Sources */,
 				04B4E14D2410A718000B8984 /* AutoLayoutVC1.swift in Sources */,
+				043DB9DE2488DD91004AAE5C /* GalleryController.swift in Sources */,
+				043DB9DC2488DCD1004AAE5C /* JSONReadWrite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
