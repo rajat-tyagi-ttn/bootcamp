@@ -11,8 +11,8 @@ import UIKit
 class MenuVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    var menuItemArray = ["Navigation","UI Elements","Auto Layout 1","TableView","Auto Layout 2","Auto Layout 3"]
-    var storyBoardIDArray = ["NavigationFirstViewController","SignUpViewController","AutoLayoutVC1","NestedTableViewVC","NestedAutoVC","SelfSizingTableViewViewController"]
+    var menuItemArray = ["Navigation","UI Elements","Auto Layout 1","TableView","Auto Layout 2","Auto Layout 3","Gallery App"]
+    var storyBoardIDArray = ["NavigationFirstViewController","SignUpViewController","AutoLayoutVC1","NestedTableViewVC","NestedAutoVC","SelfSizingTableViewViewController","GalleryController"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
