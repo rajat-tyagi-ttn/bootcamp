@@ -33,6 +33,12 @@
 		04488ADF240CE3550021CE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04488ADD240CE3550021CE46 /* LaunchScreen.storyboard */; };
 		04488AEA240CE3550021CE46 /* RajatBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04488AE9240CE3550021CE46 /* RajatBootcampTests.swift */; };
 		04488AF5240CE3550021CE46 /* RajatBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04488AF4240CE3550021CE46 /* RajatBootcampUITests.swift */; };
+		04534ABE248A2EDE00923D78 /* FirstNotificationRecieverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04534ABD248A2EDE00923D78 /* FirstNotificationRecieverController.swift */; };
+		04534AC0248A2EF300923D78 /* SecondNotificationRecieverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04534ABF248A2EF300923D78 /* SecondNotificationRecieverController.swift */; };
+		04534AC2248A2F0600923D78 /* NotificationSenderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04534AC1248A2F0600923D78 /* NotificationSenderController.swift */; };
+		04534AC4248A364000923D78 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04534AC3248A364000923D78 /* Questions.swift */; };
+		04534AC6248A37BE00923D78 /* FirstDelegationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04534AC5248A37BE00923D78 /* FirstDelegationController.swift */; };
+		04534AC8248A37D200923D78 /* SecondDelegationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04534AC7248A37D200923D78 /* SecondDelegationController.swift */; };
 		04ABC35C241FFC82003E10D3 /* StackCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC35B241FFC82003E10D3 /* StackCalculatorVC.swift */; };
 		04B4E14D2410A718000B8984 /* AutoLayoutVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E14C2410A718000B8984 /* AutoLayoutVC1.swift */; };
 		04B4E18B2410F098000B8984 /* AutoLayoutVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */; };
@@ -100,6 +106,12 @@
 		04488AF0240CE3550021CE46 /* RajatBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RajatBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04488AF4240CE3550021CE46 /* RajatBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajatBootcampUITests.swift; sourceTree = "<group>"; };
 		04488AF6240CE3550021CE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04534ABD248A2EDE00923D78 /* FirstNotificationRecieverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNotificationRecieverController.swift; sourceTree = "<group>"; };
+		04534ABF248A2EF300923D78 /* SecondNotificationRecieverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNotificationRecieverController.swift; sourceTree = "<group>"; };
+		04534AC1248A2F0600923D78 /* NotificationSenderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSenderController.swift; sourceTree = "<group>"; };
+		04534AC3248A364000923D78 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		04534AC5248A37BE00923D78 /* FirstDelegationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDelegationController.swift; sourceTree = "<group>"; };
+		04534AC7248A37D200923D78 /* SecondDelegationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDelegationController.swift; sourceTree = "<group>"; };
 		04ABC35B241FFC82003E10D3 /* StackCalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCalculatorVC.swift; sourceTree = "<group>"; };
 		04B4E14C2410A718000B8984 /* AutoLayoutVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC1.swift; sourceTree = "<group>"; };
 		04B4E18A2410F098000B8984 /* AutoLayoutVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC2.swift; sourceTree = "<group>"; };
@@ -249,6 +261,7 @@
 				04DC48CC248658C500D56591 /* AutoLayout3 */,
 				043ADBA024161B3900766F5F /* Table View */,
 				043DB9D62488DBFF004AAE5C /* GalleryApplication */,
+				04534ABC248A2E1000923D78 /* Delegation Protocol */,
 				04B4E18C2410F529000B8984 /* Assets.xcassets */,
 				04488ADD240CE3550021CE46 /* LaunchScreen.storyboard */,
 				04488AE0240CE3550021CE46 /* Info.plist */,
@@ -272,6 +285,19 @@
 				04488AF6240CE3550021CE46 /* Info.plist */,
 			);
 			path = RajatBootcampUITests;
+			sourceTree = "<group>";
+		};
+		04534ABC248A2E1000923D78 /* Delegation Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				04534AC5248A37BE00923D78 /* FirstDelegationController.swift */,
+				04534AC7248A37D200923D78 /* SecondDelegationController.swift */,
+				04534ABD248A2EDE00923D78 /* FirstNotificationRecieverController.swift */,
+				04534ABF248A2EF300923D78 /* SecondNotificationRecieverController.swift */,
+				04534AC1248A2F0600923D78 /* NotificationSenderController.swift */,
+				04534AC3248A364000923D78 /* Questions.swift */,
+			);
+			path = "Delegation Protocol";
 			sourceTree = "<group>";
 		};
 		04DC48CC248658C500D56591 /* AutoLayout3 */ = {
@@ -422,15 +448,19 @@
 				043DEFCE240D69B900F1766A /* NavigationFourthViewController.swift in Sources */,
 				043DB9DA2488DCAC004AAE5C /* ApiManager.swift in Sources */,
 				043DEFC8240D697500F1766A /* NavigationFirstViewController.swift in Sources */,
+				04534AC4248A364000923D78 /* Questions.swift in Sources */,
 				04E7B1802418AD3E00AB2E90 /* NestedTableViewCell.swift in Sources */,
 				043ADBA92416220300766F5F /* DisplayInfoCell.swift in Sources */,
+				04534AC6248A37BE00923D78 /* FirstDelegationController.swift in Sources */,
 				04454AD3241F522F003AB37E /* NestedAutoVC.swift in Sources */,
 				043DEFD6240D724300F1766A /* SegmentControlViewController.swift in Sources */,
 				043ADBA224161B7F00766F5F /* SignupPageVC.swift in Sources */,
 				043DEFD2240D721600F1766A /* SignUpViewController.swift in Sources */,
+				04534AC0248A2EF300923D78 /* SecondNotificationRecieverController.swift in Sources */,
 				04488AD3240CE3540021CE46 /* AppDelegate.swift in Sources */,
 				04488AD5240CE3540021CE46 /* SceneDelegate.swift in Sources */,
 				043DEFD4240D722100F1766A /* HomeViewController.swift in Sources */,
+				04534ABE248A2EDE00923D78 /* FirstNotificationRecieverController.swift in Sources */,
 				043DB9D82488DC5D004AAE5C /* GalleryItem.swift in Sources */,
 				043DEFCC240D69AA00F1766A /* NavigationThirdViewController.swift in Sources */,
 				04DC48CE248658F200D56591 /* SelfSizingCollectionViewController.swift in Sources */,
@@ -448,8 +478,10 @@
 				043DEFCA240D699600F1766A /* NavigationSecondViewController.swift in Sources */,
 				04E7B1842418AE2100AB2E90 /* NestedCollectionViewCell.swift in Sources */,
 				04B4E14D2410A718000B8984 /* AutoLayoutVC1.swift in Sources */,
+				04534AC8248A37D200923D78 /* SecondDelegationController.swift in Sources */,
 				043DB9DE2488DD91004AAE5C /* GalleryController.swift in Sources */,
 				043DB9DC2488DCD1004AAE5C /* JSONReadWrite.swift in Sources */,
+				04534AC2248A2F0600923D78 /* NotificationSenderController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

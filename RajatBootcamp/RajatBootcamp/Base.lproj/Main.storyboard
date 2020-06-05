@@ -1995,6 +1995,279 @@
             </objects>
             <point key="canvasLocation" x="1056.5217391304348" y="6174.7767857142853"/>
         </scene>
+        <!--First Notification Reciever Controller-->
+        <scene sceneID="jVf-yi-7cU">
+            <objects>
+                <viewController storyboardIdentifier="FirstNotificationRecieverController" id="lyA-ym-nbN" customClass="FirstNotificationRecieverController" customModule="RajatBootcamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uPb-DT-zsF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Data will come from 3rd controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPM-qN-wKU">
+                                <rect key="frame" x="59" y="437.66666666666669" width="296" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mPM-qN-wKU" firstAttribute="centerY" secondItem="uPb-DT-zsF" secondAttribute="centerY" id="3NW-xg-Stp"/>
+                            <constraint firstItem="mPM-qN-wKU" firstAttribute="centerX" secondItem="uPb-DT-zsF" secondAttribute="centerX" id="T5o-yL-7Ut"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KUz-T5-3i7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3Sw-Pz-faF">
+                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="0OI-wG-rHH">
+                            <connections>
+                                <segue destination="p1Q-Ug-GXr" kind="show" id="Ck2-iY-5MD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="notificationRecieverLabel" destination="mPM-qN-wKU" id="0Zs-GQ-e3K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SgF-gN-v7c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1942.0289855072465" y="7026.5625"/>
+        </scene>
+        <!--Second Notification Reciever Controller-->
+        <scene sceneID="XD3-99-8gn">
+            <objects>
+                <viewController storyboardIdentifier="SecondNotificationRecieverController" id="p1Q-Ug-GXr" customClass="SecondNotificationRecieverController" customModule="RajatBootcamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="imU-gV-zWc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Data will come from 3rd Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVS-Uu-lgt">
+                                <rect key="frame" x="57.666666666666657" y="437.66666666666669" width="299" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FVS-Uu-lgt" firstAttribute="centerY" secondItem="imU-gV-zWc" secondAttribute="centerY" id="hfa-IH-Uoe"/>
+                            <constraint firstItem="FVS-Uu-lgt" firstAttribute="centerX" secondItem="imU-gV-zWc" secondAttribute="centerX" id="nL1-HW-s0i"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HVw-81-Qvo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kaq-Ln-YZm">
+                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="6sh-tG-B7f">
+                            <connections>
+                                <segue destination="0SP-dk-DRs" kind="show" id="MH1-wZ-woG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="notificationRecieverLabel" destination="FVS-Uu-lgt" id="KhY-cN-U7a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lbh-b0-fHF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2876.811594202899" y="7026.5625"/>
+        </scene>
+        <!--Notification Sender Controller-->
+        <scene sceneID="ZpP-hw-EeW">
+            <objects>
+                <viewController storyboardIdentifier="NotificationSenderController" id="0SP-dk-DRs" customClass="NotificationSenderController" customModule="RajatBootcamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="47B-Rg-hMS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Data to send to other controllers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjp-Q3-lex">
+                                <rect key="frame" x="60.666666666666657" y="437.66666666666669" width="293" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGv-AF-WPq">
+                                <rect key="frame" x="40" y="498.66666666666674" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWg-Hd-nkH">
+                                <rect key="frame" x="183" y="562" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="0SP-dk-DRs" eventType="touchUpInside" id="yFu-wb-eLD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sGv-AF-WPq" firstAttribute="centerX" secondItem="47B-Rg-hMS" secondAttribute="centerX" id="1ax-Hh-YuY"/>
+                            <constraint firstItem="sGv-AF-WPq" firstAttribute="top" secondItem="fjp-Q3-lex" secondAttribute="bottom" constant="40" id="HEk-bf-dXN"/>
+                            <constraint firstItem="fjp-Q3-lex" firstAttribute="centerX" secondItem="47B-Rg-hMS" secondAttribute="centerX" id="jDs-fG-jh1"/>
+                            <constraint firstItem="fjp-Q3-lex" firstAttribute="centerY" secondItem="47B-Rg-hMS" secondAttribute="centerY" id="jeA-NB-Get"/>
+                            <constraint firstItem="sGv-AF-WPq" firstAttribute="leading" secondItem="1R8-JR-PjA" secondAttribute="leading" constant="40" id="nP4-RA-pO9"/>
+                            <constraint firstItem="1R8-JR-PjA" firstAttribute="trailing" secondItem="sGv-AF-WPq" secondAttribute="trailing" constant="40" id="rRk-SM-YWr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1R8-JR-PjA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X5g-Wv-cwf"/>
+                    <connections>
+                        <outlet property="notificationSenderTextField" destination="sGv-AF-WPq" id="PEp-eX-kJ7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9O7-el-vzN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3789.8550724637685" y="7026.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aVb-xT-lzB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GxO-HI-GnA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7AZ-lP-hZ2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lyA-ym-nbN" kind="relationship" relationship="rootViewController" id="KAl-GK-KGs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQh-pg-ifC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031.8840579710145" y="7026.5625"/>
+        </scene>
+        <!--First Delegation Controller-->
+        <scene sceneID="Aa5-zY-qde">
+            <objects>
+                <viewController storyboardIdentifier="FirstDelegationController" id="zvt-dH-eAr" customClass="FirstDelegationController" customModule="RajatBootcamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5AY-qt-7Ou">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nl-yk-7Um">
+                                <rect key="frame" x="184.66666666666666" y="288" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rD-cf-9E4">
+                                <rect key="frame" x="192" y="349" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parent's Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pd-Ug-5Sf">
+                                <rect key="frame" x="151" y="410" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5Nl-yk-7Um" firstAttribute="centerX" secondItem="5AY-qt-7Ou" secondAttribute="centerX" id="8Bd-zG-mHp"/>
+                            <constraint firstItem="8pd-Ug-5Sf" firstAttribute="centerX" secondItem="5AY-qt-7Ou" secondAttribute="centerX" id="MIf-0k-ebb"/>
+                            <constraint firstItem="8pd-Ug-5Sf" firstAttribute="top" secondItem="3rD-cf-9E4" secondAttribute="bottom" constant="40" id="dZu-2J-gmn"/>
+                            <constraint firstItem="3rD-cf-9E4" firstAttribute="top" secondItem="5Nl-yk-7Um" secondAttribute="bottom" constant="40" id="fua-wS-Oul"/>
+                            <constraint firstItem="5Nl-yk-7Um" firstAttribute="top" secondItem="tLW-uY-S3d" secondAttribute="top" constant="200" id="si1-a2-iqK"/>
+                            <constraint firstItem="3rD-cf-9E4" firstAttribute="centerX" secondItem="5AY-qt-7Ou" secondAttribute="centerX" id="zNa-NK-nZy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tLW-uY-S3d"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PyG-79-2v6">
+                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="7vU-SP-Fad">
+                            <connections>
+                                <action selector="nextButtonTapped:" destination="zvt-dH-eAr" id="c4F-Hi-gi2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ageLabel" destination="3rD-cf-9E4" id="SqF-Lh-Bz7"/>
+                        <outlet property="nameLabel" destination="5Nl-yk-7Um" id="TEu-rN-zCZ"/>
+                        <outlet property="parentsNameLabel" destination="8pd-Ug-5Sf" id="nfK-hQ-gs8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CCl-QV-3FV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1942.0289855072465" y="7715.625"/>
+        </scene>
+        <!--Second Delegation Controller-->
+        <scene sceneID="Cf9-dl-aDg">
+            <objects>
+                <viewController storyboardIdentifier="SecondDelegationController" id="O7s-PE-amn" customClass="SecondDelegationController" customModule="RajatBootcamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IBj-tq-zz9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wxo-P3-7z3">
+                                <rect key="frame" x="40" y="244" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JIH-iQ-yv4">
+                                <rect key="frame" x="40" y="318" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Parent's Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tyU-bD-4TY">
+                                <rect key="frame" x="40" y="392" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKC-7T-iYi">
+                                <rect key="frame" x="80" y="491" width="254" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="O7s-PE-amn" eventType="touchUpInside" id="zE1-gX-FI6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YS6-uE-6Dv" firstAttribute="trailing" secondItem="Wxo-P3-7z3" secondAttribute="trailing" constant="40" id="4PZ-cS-R7r"/>
+                            <constraint firstItem="JIH-iQ-yv4" firstAttribute="leading" secondItem="YS6-uE-6Dv" secondAttribute="leading" constant="40" id="5Pc-yP-n3R"/>
+                            <constraint firstItem="tyU-bD-4TY" firstAttribute="top" secondItem="JIH-iQ-yv4" secondAttribute="bottom" constant="40" id="5j1-d2-GIW"/>
+                            <constraint firstItem="YS6-uE-6Dv" firstAttribute="trailing" secondItem="JIH-iQ-yv4" secondAttribute="trailing" constant="40" id="7mx-sD-hkA"/>
+                            <constraint firstItem="tyU-bD-4TY" firstAttribute="leading" secondItem="YS6-uE-6Dv" secondAttribute="leading" constant="40" id="KZK-6J-ErN"/>
+                            <constraint firstItem="JIH-iQ-yv4" firstAttribute="top" secondItem="Wxo-P3-7z3" secondAttribute="bottom" constant="40" id="LwZ-Hn-SIx"/>
+                            <constraint firstItem="vKC-7T-iYi" firstAttribute="leading" secondItem="YS6-uE-6Dv" secondAttribute="leading" constant="80" id="V8k-ZE-IWY"/>
+                            <constraint firstItem="Wxo-P3-7z3" firstAttribute="centerX" secondItem="IBj-tq-zz9" secondAttribute="centerX" id="dOP-PF-aoO"/>
+                            <constraint firstItem="Wxo-P3-7z3" firstAttribute="top" secondItem="YS6-uE-6Dv" secondAttribute="top" constant="200" id="f5S-FE-0K5"/>
+                            <constraint firstItem="vKC-7T-iYi" firstAttribute="top" secondItem="tyU-bD-4TY" secondAttribute="bottom" constant="65" id="gG5-ue-9KJ"/>
+                            <constraint firstItem="YS6-uE-6Dv" firstAttribute="trailing" secondItem="tyU-bD-4TY" secondAttribute="trailing" constant="40" id="gJB-qM-BWO"/>
+                            <constraint firstItem="YS6-uE-6Dv" firstAttribute="trailing" secondItem="vKC-7T-iYi" secondAttribute="trailing" constant="80" id="gxm-lK-yzv"/>
+                            <constraint firstItem="Wxo-P3-7z3" firstAttribute="leading" secondItem="YS6-uE-6Dv" secondAttribute="leading" constant="40" id="yCG-gl-SUJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YS6-uE-6Dv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qxI-fa-g3f"/>
+                    <connections>
+                        <outlet property="ageTextField" destination="JIH-iQ-yv4" id="Bd7-Zc-cAQ"/>
+                        <outlet property="nameTextField" destination="Wxo-P3-7z3" id="MFg-gD-joS"/>
+                        <outlet property="parentsNameTextField" destination="tyU-bD-4TY" id="Gko-29-ccR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFO-wK-kCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2876.811594202899" y="7715.625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pRx-m4-vEO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0L1-UH-zo8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ApJ-VB-ui6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zvt-dH-eAr" kind="relationship" relationship="rootViewController" id="7JE-xy-pMe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ae1-WO-gpz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031.8840579710145" y="7715.625"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1" width="2655" height="1991"/>
