@@ -26,6 +26,7 @@
 		043DEFD2240D721600F1766A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFD1240D721600F1766A /* SignUpViewController.swift */; };
 		043DEFD4240D722100F1766A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFD3240D722100F1766A /* HomeViewController.swift */; };
 		043DEFD6240D724300F1766A /* SegmentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DEFD5240D724300F1766A /* SegmentControlViewController.swift */; };
+		044360E8248E80C600F485E9 /* AlertNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044360E7248E80C600F485E9 /* AlertNotificationController.swift */; };
 		04454AD3241F522F003AB37E /* NestedAutoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04454AD2241F522F003AB37E /* NestedAutoVC.swift */; };
 		04488AD3240CE3540021CE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04488AD2240CE3540021CE46 /* AppDelegate.swift */; };
 		04488AD5240CE3540021CE46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04488AD4240CE3540021CE46 /* SceneDelegate.swift */; };
@@ -93,6 +94,7 @@
 		043DEFD1240D721600F1766A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		043DEFD3240D722100F1766A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		043DEFD5240D724300F1766A /* SegmentControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlViewController.swift; sourceTree = "<group>"; };
+		044360E7248E80C600F485E9 /* AlertNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotificationController.swift; sourceTree = "<group>"; };
 		04454AD2241F522F003AB37E /* NestedAutoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedAutoVC.swift; sourceTree = "<group>"; };
 		04488ACF240CE3540021CE46 /* RajatBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RajatBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04488AD2240CE3540021CE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				04534AC5248A37BE00923D78 /* FirstDelegationController.swift */,
+				044360E7248E80C600F485E9 /* AlertNotificationController.swift */,
 				04534AC7248A37D200923D78 /* SecondDelegationController.swift */,
 				04534ABD248A2EDE00923D78 /* FirstNotificationRecieverController.swift */,
 				04534ABF248A2EF300923D78 /* SecondNotificationRecieverController.swift */,
@@ -452,6 +455,7 @@
 				04E7B1802418AD3E00AB2E90 /* NestedTableViewCell.swift in Sources */,
 				043ADBA92416220300766F5F /* DisplayInfoCell.swift in Sources */,
 				04534AC6248A37BE00923D78 /* FirstDelegationController.swift in Sources */,
+				044360E8248E80C600F485E9 /* AlertNotificationController.swift in Sources */,
 				04454AD3241F522F003AB37E /* NestedAutoVC.swift in Sources */,
 				043DEFD6240D724300F1766A /* SegmentControlViewController.swift in Sources */,
 				043ADBA224161B7F00766F5F /* SignupPageVC.swift in Sources */,

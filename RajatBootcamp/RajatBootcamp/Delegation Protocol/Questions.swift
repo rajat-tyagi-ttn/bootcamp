@@ -13,10 +13,10 @@ import Foundation
 /*
  For regular remote notifications, the maximum size is 4KB (4096 bytes)
  For Voice over Internet Protocol (VoIP) notifications, the maximum size is 5KB (5120 bytes)
- */
+*/
 
 
-
+//MARK:- What is push notification?How it works?
 /*
  Apple Push Notification service (APNs) is the centerpiece of the remote notifications feature. It is a robust, secure, and highly efficient service for app developers to propagate information to iOS (and, indirectly, watchOS), tvOS, and macOS devices.
  

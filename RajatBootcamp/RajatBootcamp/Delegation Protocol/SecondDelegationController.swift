@@ -35,5 +35,8 @@ class SecondDelegationController: UIViewController {
         self.navigationController?.popViewController(animated: true)
         print(dict)
     }
+    @IBAction func nextBarButtonTapped(_ sender: UIBarButtonItem) {
+        
+    }
     
 }
