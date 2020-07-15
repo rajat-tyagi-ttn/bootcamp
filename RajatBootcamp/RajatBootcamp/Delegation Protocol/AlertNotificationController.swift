@@ -19,7 +19,10 @@ class AlertNotificationController: UIViewController {
             (granted,error) in
             if granted {
                 print("granted")
-                self.permissionStatusLabel.text = "You will Recieve Notification in 60 seconds"
+                DispatchQueue.main.async {
+                    self.permissionStatusLabel.text = "You will Recieve Notification in 60 seconds"
+                }
+                
             }
             else {
                 print("no permission")
@@ -32,7 +35,7 @@ class AlertNotificationController: UIViewController {
         content.body = "Tomorrow at 2 PM"
         content.sound = .defaultCriticalSound(withAudioVolume: 9)
         
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         
         let uuidString = UUID().uuidString
         let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
